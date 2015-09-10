@@ -1,0 +1,94 @@
+body,h1,h3,h4,li,ul{margin:0;padding:0}
+.menu li,.menu-wrap,.title,h4,li{display:inline-block}
+.menu li a,.top-bar,body{color:#fff}
+.quote,.title{font-weight:400}
+.cf,body{overflow:auto}*{box-sizing:border-box}
+li{list-style-type:none}
+a{text-decoration:none}
+h4{margin:20px 0;font-size:150%}
+body{width:100%;font-family:'Open Sans',sans-serif}
+.home-wrap{background: url(../img/llama.jpg) 60% 100% no-repeat;background-size:120% 140%;margin-bottom:30px;transition:height .5s ease}
+.home-content,.home-wrap{width:100%;height:600px;-webkit-transition:height .5s ease;-moz-transition:height .5s ease;-o-transition:height .5s ease}
+.home-content{background-color:#000;opacity:.8;transition:height .5s ease}
+.top-bar{width:95%;margin:0 auto}.title{float:left;margin:40px 20px 40px 60px}
+.menu-wrap{float:right}.menu{margin:60px 15px 20px;height:20px;line-height:10px}
+.menu li{padding:2px 10px;border-right:1px solid}.menu li:last-child{border-right:none}
+.menu li a:hover{border-bottom:1px solid #FDC600!important}
+.menu li:first-child a{border-bottom:1px solid #FDC600}
+.mobile-menu{margin:30px 10px;float:right;display:none;cursor:pointer}
+.bar{width:32px;height:1px;margin-bottom:7px;display:block;background:#FDC600}
+.welcome-text{text-align:center;margin-top:200px}
+.quote{color:#FDC600;font-size:250%}
+.heading{font-weight:700} 
+.desc,.m-desc{width:420px;font-size:150%;font-style:italic;margin:20px auto;word-break:break-all;,text-align:center;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;hyphens:auto}
+.m-desc{display:none;width:300px; font-size:130%; margin:20px auto}
+.down-arrow{position:relative;top:15px;text-align:center;padding:12px;margin-top:35px;display:inherit;margin-left:auto;margin-right:auto;height:15px;width:30px;cursor:pointer;-webkit-transform:rotate(180deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(360deg)}.down-arrow:after,.down-arrow:before{content:'';position:absolute;top:0;height:30%;background:#FFF34F}
+.down-arrow:before{left:0;width:51%;-webkit-transform:skew(0deg,20deg);-moz-transform:skew(0deg,20deg);-ms-transform:skew(0deg,20deg);-o-transform:skew(0deg,20deg);transform:skew(0deg,20deg)}
+.down-arrow:after{right:0;width:50%;-webkit-transform:skew(0deg,-20deg);-moz-transform:skew(0deg,-20deg);-ms-transform:skew(0deg,-20deg);-o-transform:skew(0deg,-20deg);transform:skew(0deg,-20deg)}
+.down-arrow:hover{border-bottom:none}
+.facts-wrap,.gallery-wrap,.about-wrap{color:grey;width:100%;overflow:auto;min-height:600px}
+.about-wrap{overflow:hidden}
+.card-content,.heading{text-align:center;color:#000}
+.heading{font-size:150%;margin:0;height:50px;line-height:50px}
+.about{width:70%;margin:40px auto;height:auto}
+.card-wrap{background:#F5F2F2;width:23%;float:left;margin:0 1%;text-align:center}
+.card{width:100%;min-height:380px;border-bottom:2px solid #FDC600}
+.card-content{width:130px;margin:0 auto}.bg-y{background:#FDC600}
+.card img{display:block;margin:20px auto;width:50%}
+.facts-pictures{min-height:100px;width:90%;margin:10px auto}
+.f-picture{width:23%;border:1px solid #e2e2e2;float:left;margin:0 1%;padding:20px;height:130px}
+#spit{background:url(../img/spit.jpg); background-size:40% 80%}
+#virus{background:url(../img/virus.jpg);background-size:40% 80%}
+#gaurd{background:url(../img/gaurd.jpg);background-size:40% 80%}
+#show{background:url(../img/show.jpg);background-size:40% 80%}
+#spit,#virus,#gaurd,#show{background-repeat:no-repeat;background-position:center}
+.fact-description{width:95%;margin:0 auto;text-align:center}
+.fatcs-description p{width:215px}
+.facts-description{width:100%;margin-top:0 ;min-height:400px;color:#000;padding:30px 0}
+.f-desc{width:420px;font-size:100%;font-style:italic;margin:20px auto;text-align:left;display:block;}
+.heading gallery{font-size:150%;margin:0;height:50px;line-height:50px}
+.llama-slideshow{
+   position: relative;
+   max-width: 495px;
+   height: 370px;
+   margin: 5em auto .5em auto;
+   
+}
+.llama-slideshow figure{
+   margin: 0;
+   position: absolute;
+}
+.llama-slideshow figcaption{
+   position: absolute;
+   top: 0;
+   color: #fff;
+   background: rgba(0,0,0, .3);
+   font-size: .8em;
+   padding: 8px 12px;
+   opacity: 0;
+   transition: opacity .5s;
+}
+.llama-slideshow:hover figure figcaption{
+   transition: opacity .5s;
+   opacity: 1;
+}
+.llama-slideshow figure{
+   opacity:0;
+}
+
+figure:nth-child(1) {animation: xfade 48s 42s infinite;}
+figure:nth-child(2) { animation: xfade 48s 36s infinite;}
+figure:nth-child(3) { animation: xfade 48s 30s infinite;}
+figure:nth-child(4) {animation: xfade 48s 24s infinite;}
+figure:nth-child(5) {animation: xfade 48s 18s infinite;}
+figure:nth-child(6) {animation: xfade 48s 12s infinite;}
+figure:nth-child(7) {animation: xfade 48s 6s infinite;}
+figure:nth-child(8) {animation: xfade 48s 0s infinite;}
+
+@keyframes xfade{
+   0%{opacity: 1; }
+   10.5% {opacity:1;}
+   12.5%{opacity: 0; }
+   98% {opacity:0; }
+   100% {opacity:1;
+   }
