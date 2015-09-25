@@ -79,7 +79,9 @@ input[type=checkbox]:checked ~ #menu{
 .heading{font-weight:700} 
 /*styling for desc, m-desc are made which includes font-style, size ,width etc*/
 .desc,.m-desc{width:420px;font-size:150%;font-style:italic;margin:20px auto;text-align:center;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;hyphens:auto}
-
+.bold {font-weight: bold;}
+.italic { font-style: italic;}
+.text-center {text-align: center;}
 /*display form m-desc is made none , it is visible in mobile devices meta section*/
 .m-desc{display:none;width:300px; font-size:130%; margin:20px auto}
 
