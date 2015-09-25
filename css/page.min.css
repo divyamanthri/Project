@@ -191,17 +191,26 @@ figure:nth-child(8) {
  }
 
 /*the form background is made blue and form image is made to flaot left and form is placed on the right */
-.form-wrap{background:linear-gradient(#00CCFF,#008FB2);min-height:550px;padding:40px 0}
+.form-wrap{/*background:linear-gradient(#00CCFF,#008FB2);min-height:550px;padding:40px 0*/
+background-color: #4F598A;
+    min-height: 550px;
+    padding: 40px 0;
+    background-position: 25px 70px;
+    background-repeat: no-repeat;
+    background-image: url('../img/llama-front.png');
+    text-align: center;	
+}
 form{ width:60%;margin:30px auto; padding:30px 0 }
 .form-image { width:40%;float:left; padding:50px 0 0 30px}
 .form-image{display:inline}
 .sketch{display: inline} 
 
 /*adjusting the field parameters in the form*/
-.field{width:30%;text-indent:10px;margin:10px 1%}
+.field{width:30%;text-indent:10px;margin:10px auto;border-radius: 5px;
+    line-height: 34px;border: 1px solid #4F598A;}
 
 /*added style to the button */
-.btn{width:10%;display:block;text-align:center;line-height:34px;color:#30405C;margin:0 5%}
+.btn{width:10%;display:block;text-align:center;line-height:34px;color:#4F598A;margin:20px auto;border-radius: 5px;cursor: pointer;font-weight: bold;}
 
 /*designing the note with different colour and style*/
 .note{text-align:center;font-size:150%;width:450px;margin:0 auto;font-style:italic; color: #FDC600}
@@ -406,13 +415,9 @@ padding-left:120px }
     }
  
 
-.field {
-    width:55%;    margin: 10px
-    }
-   
- .btn {
-     position:absolute;   width: 20%;
-        margin: 0 auto
+
+.field ,.btn{
+    width:70%;  
     }
   
   .note {
@@ -432,7 +437,7 @@ padding-left:120px }
  display:none}
 
 form { padding-left:95px}
-
+.form-wrap { background-image: none ;}
  
 }
 
@@ -472,6 +477,7 @@ form{padding-left:0}
 .llama-slideshow{ 
 width:350px;
 }
+.form-wrap { background-image: none ;}
 .reviews{padding-left:20px} 
 
 
